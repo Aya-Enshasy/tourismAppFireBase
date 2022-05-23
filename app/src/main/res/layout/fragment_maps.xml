@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F6F9FA"
+    tools:context=".navbar.MapsFragment"
+>
+
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tabs"
+        android:layout_marginTop="0dp"
+        tools:context=".MapsActivity"
+        tools:layout="@layout/fragment_maps" >
+
+    </androidx.fragment.app.FragmentContainerView>
+
+
+
+    <ImageButton
+        android:id="@+id/microphone"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_alignTop="@+id/places_search"
+        android:layout_alignEnd="@+id/places_search"
+        android:layout_alignBottom="@+id/places_search"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:padding="@dimen/_10sdp"
+        android:onClick="speakButtonClicked"
+        android:elevation="@dimen/_8sdp"
+        app:tint="@color/purple_500"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/microphone"
+        android:src="@drawable/ic_baseline_mic_24" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/places_search"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_17sdp"
+        android:layout_marginEnd="@dimen/_16ssp"
+        android:autofillHints=""
+        android:background="@drawable/search"
+        android:elevation="5dp"
+        android:ems="10"
+        android:hint="@string/search"
+        android:inputType="textPersonName"
+        android:outlineSpotShadowColor="@color/purple_700"
+        android:paddingStart="@dimen/_55sdp" />
+
+
+    <ImageButton
+        android:id="@+id/search"
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_alignStart="@+id/places_search"
+        android:layout_alignTop="@+id/places_search"
+        android:layout_alignBottom="@+id/places_search"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginBottom="@dimen/_2sdp"
+        android:background="@drawable/search"
+        android:contentDescription="TODO"
+        android:elevation="5dp"
+        android:src="@drawable/ic_baseline_search_24"
+        app:tint="@color/purple_500" />
+
+</RelativeLayout>
+
+
+

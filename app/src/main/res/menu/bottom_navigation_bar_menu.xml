@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/homepage"
+        android:iconTint="#0E4C75"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/Orders"
+        android:icon="@drawable/archaeological1"
+        android:iconTint="#0E4C75"
+        android:title="Archaeological" />
+    <item
+        android:id="@+id/Account"
+        android:iconTint="#0E4C75"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="My Account" />
+</menu>

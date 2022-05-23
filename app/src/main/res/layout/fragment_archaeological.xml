@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+  >
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/top_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-8dp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:background="@drawable/tab2"
+        android:elevation="@dimen/_5sdp"
+        android:outlineSpotShadowColor="@color/purple_500"
+        app:tabIconTint="@color/bnv_selector2"
+        app:tabIndicatorHeight="0dp"
+        app:tabSelectedTextColor="#0E4C75"
+        app:tabTextAppearance="@style/TabLayoutStyle"
+        app:tabTextColor="@color/bnv_selector2"
+        app:menu="@menu/top_navigation_bar_menu"
+        android:outlineProvider="bounds"
+     />
+
+    <FrameLayout
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_navigation_view"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#F6F9FA" />
+
+
+
+
+
+
+</RelativeLayout>

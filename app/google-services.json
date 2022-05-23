@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "688100455348",
+    "firebase_url": "https://pablo-9f908-default-rtdb.firebaseio.com",
+    "project_id": "pablo-9f908",
+    "storage_bucket": "pablo-9f908.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688100455348:android:fdfc7ed1d7f30f1899b8e1",
+        "android_client_info": {
+          "package_name": "com.example.pablo_palestine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688100455348-drm29g31npvg7d0cm9uj3pqfip1snro6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pablo_palestine",
+            "certificate_hash": "8bc79847845b85ba1ba777ef37cd569f6560604b"
+          }
+        },
+        {
+          "client_id": "688100455348-m1ld0o3inqafefuv7emf9qedm0eajvij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfKABL33dkjv8Ggd7vClll73rgshwokrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688100455348-m1ld0o3inqafefuv7emf9qedm0eajvij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
